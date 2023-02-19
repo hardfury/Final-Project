@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    padding-top: 20px;
+}
+
+.login-menu{
+    display: flex;
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-menu ul {
+    display: flex;
+}
+.login-menu ul li{
+    padding-right: 30px;
+}
+
+.navbar-menu{
+    display: flex;
+    margin: 25px 70px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: right ;
+}
+
+.navbar-menu ul{
+    justify-content: right;
+    display: flex;
+    margin-left: 30px;
+    padding: 5px
+}
+
+.navbar-menu ul li{
+    justify-content: right;
+    margin-left: 30px;
+    padding: 5px
+}
+
+.navbar-menu li:hover{
+    background-color: #439A97;
+    color: white;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.tbl-orange{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.login-menu li :hover{
+    background-color: #439A97;
+    border-radius: 20px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+
+.container-content{
+    display: flex;
+    margin-top: 40px;
+}
+.kontent-paragraf {
+    width: 50%;
+    margin-left: 65px;
+}
+.kontent-paragraf h3{
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.img-content{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.img-content img{
+   width: 50px;
+}
+.kontent-paragraf h2{
+    font-size: 50px;
+    word-spacing: 5px;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.kontent-paragraf p{
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+span{
+    color: orange;
+}
+.konten-media{
+    margin-right: 60px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media1{
+    border: 1px solid orange;
+    width: 11rem;
+    height: 19rem;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.media2{
+    border: 1px solid orange;
+    width: 11rem;
+    height: 19rem;
+    margin-right: 15px;
+    border-radius: 20px;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.media3{
+    width: 11rem;
+    height: 19rem;
+    border-radius: 20px;
+    border: 1px solid orange;
+    margin-top: 100px;
+}
+
+.search-bar{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: max-content;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.location{
+    display: flex;
+    margin-right: 20px;
+    border-right: 2px solid #ddd;
+}
+.mapicon{
+    font-size: 30px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.map-input{
+    padding-left: 5px;
+}
+.map-input h6{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.map-input input{
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+}
+.map-input input:active{
+    border: none;
+}
+.jarak{
+    display: flex;
+    margin-right: 20px;
+    border-right: 2px solid #ddd;
+}
+.icon-jarak{
+    font-size: 30px;
+    color: orange;
+    display: flex;
+    align-items: center;
+}
+.jarak-input{
+    padding-left: 5px;
+}
+.jarak-input h6{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.jarak-input input{
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+}
+.jumlah{
+    display: flex;
+    margin-right: 20px;
+}
+.icon-orang{
+    font-size: 30px;
+    color: orange;
+    display: flex;
+    align-items: center;
+}
+.jumlah-input{
+    padding-left: 5px;
+}
+.jumlah-input h6{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.jumlah-input input{
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+}
+.tbl-search{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    padding: 10px;
+    color: orange;
+}
