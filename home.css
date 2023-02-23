@@ -235,3 +235,79 @@ span{
     padding: 10px;
     color: orange;
 }
+
+.containerregis {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: orange;
+    margin: 100px auto;
+    padding: 0px 5px 20px 5px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    width: 80%
+}
+
+input {
+    border: none;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+
+input[type="password"] {
+    font-family: "pass";
+    font-size: 30px;
+}
+
+.containerregis > p {
+    padding: 10px;
+    justify-content: center;
+}
+
+#travelpic {
+    width: auto;
+    object-fit: cover;
+    }
+
+.signupother {
+    display: flex-row;
+    border-radius: 20px;
+	border: 1px solid;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin: 5px 0px;
+    width: 75%;
+    text-align: center;
+}
+
+#lg-fb {
+    background-color: #4267B2;
+    border: #4267B2;
+    color: #fff;
+}
+#lg-gm {
+    background-color: #fff;
+    border: #fff;
+    color: black
+}
