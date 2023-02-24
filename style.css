@@ -282,7 +282,6 @@ input[type="password"] {
 }
 
 #travelpic {
-    width: auto;
     object-fit: cover;
     }
 
