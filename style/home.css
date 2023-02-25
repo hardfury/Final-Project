@@ -80,7 +80,6 @@ a {
 }
 
 .navbar-menu{
-  border: 2px solid;
     display: flex;
     margin: 25px 70px;
     font-size: 20px;
@@ -91,7 +90,6 @@ a {
 }
 
 .navbar-menu ul{
-  border: 2px solid;
     justify-content: right;
     display: flex;
     margin-left: 30px;
@@ -104,7 +102,6 @@ a {
 }
 
 .navbar-menu ul li{
-  border: 2px solid;
     justify-content: right;
     margin-left: 30px;
     padding: 5px;
