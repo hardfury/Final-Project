@@ -107,11 +107,11 @@ a {
 }
 
 .menu li a:hover {
-    background-color: orange;
-    color: white;
-    border-radius: 20px;
-    transition: all 0.3s ease-in-out;
-  background-color: #439a97;
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  background-color: orange;
   color: white;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
@@ -230,9 +230,11 @@ span {
 .map-input {
   padding-left: 5px;
 }
-.map-input{
-    padding-left: 5px;
+
+.map-input {
+  padding-left: 5px;
 }
+
 .map-input {
   padding-left: 5px;
 
@@ -318,44 +320,44 @@ span {
 
 /* login style start */
 
-    .img-login img {
-      margin-top: 60px;
-      position: absolute;
-      justify-content: center;
-      width: 600px;
-      margin-left: 50px;
-      opacity: 0.6;
-    }
+.img-login img {
+  margin-top: 60px;
+  position: absolute;
+  justify-content: center;
+  width: 600px;
+  margin-left: 50px;
+  opacity: 0.6;
+}
 
-    /* logo 2 */
-    .img-logo {
-        position: absolute;
-        width: 157px;
-        height: 46px;
-        left: 642px;
-        margin-bottom: 500px;
-    }
+/* logo 2 */
+.img-logo {
+  position: absolute;
+  width: 157px;
+  height: 46px;
+  left: 642px;
+  margin-bottom: 500px;
+}
 
 .login-ctr {
   /* Frame 40 */
-        /* Auto layout */
-        font-family: poppins;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 32px 24px;
-        gap: 16px;
-        left: 700px;
-        margin-left: 200px;
-        margin-bottom: 100px;
+  /* Auto layout */
+  font-family: poppins;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  gap: 16px;
+  left: 700px;
+  margin-left: 200px;
+  margin-bottom: 100px;
 
-        position: relative;
-        width: 369px;
-        left: 536px;
-        top: 100px;
-        box-shadow: 5px 12px 16px 5px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
-        background: #ffffff;
-    }
+  position: relative;
+  width: 369px;
+  left: 536px;
+  top: 100px;
+  box-shadow: 5px 12px 16px 5px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  background: #ffffff;
+}
 
 /*login start*/
 .login-grid {
@@ -385,20 +387,20 @@ span {
   flex-grow: 0;
 }
 
-    /* label phone number */
-    .login-grid label {
-        width: auto;
-        height: 19px;
-        margin-bottom: 10px;
+/* label phone number */
+.login-grid label {
+  width: auto;
+  height: 19px;
+  margin-bottom: 10px;
 
-        /* Link/500 */
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 17px;
-        /* identical to box height, or 130% */
-        text-align: start;
-    }
+  /* Link/500 */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  /* identical to box height, or 130% */
+  text-align: start;
+}
 
 /* ini masukan email */
 .login-grid input {
@@ -427,13 +429,14 @@ span {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-    .clk2 {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        width: 119px;
-        height: 19px;
-        justify-content: center;
-    }
+
+.clk2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 119px;
+  height: 19px;
+  justify-content: center;
+}
 
 .clk2 {
   margin-top: 15px;
@@ -476,26 +479,26 @@ span.label {
   font-weight: normal;
 }
 
-    /* BATAS  */
-    span.buttonText {
-        display: inline-block;
-        vertical-align: middle;
-        padding-left: 42px;
-        padding-right: 42px;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: "Roboto", sans-serif;
-    }
+/* BATAS  */
+span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
 
-    .bts {
-        margin-top: 5px;
-        justify-content: center;
-        display: flex;
-        font-family: "Poppins";
-        font-weight: 400;
-        font-size: 14px;
-        color: #bebebe;
-    }
+.bts {
+  margin-top: 5px;
+  justify-content: center;
+  display: flex;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  color: #bebebe;
+}
 
 button {
   cursor: pointer;
