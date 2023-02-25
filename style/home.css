@@ -97,7 +97,6 @@ a {
 }
 
 .navbar-col{
-  text-decoration: underline;
   padding: 5px 10px 5px 10px;
 }
 
@@ -108,7 +107,7 @@ a {
 }
 
 .menu li a:hover {
-    background-color: #439a97;
+    background-color: orange;
     color: white;
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
@@ -225,13 +224,7 @@ a {
 .map-input {
   padding-left: 5px;
 }
-/* .mapicon{
-    font-size: 30px;
-    color: orange;
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-} */
+
 .map-input{
     padding-left: 5px;
 }
@@ -303,15 +296,12 @@ a {
     /* login style start */
 
     .img-login img {
-        position: absolute;
-        justify-content: center;
-        width: auto;
-        height: 175vh;
-        /* max-width: fit-content;
-  max-height: 100vh; */
-
-        /* background: url(login.png); */
-        opacity: 0.6;
+      margin-top: 60px;
+      position: absolute;
+      justify-content: center;
+      width: 600px;
+      margin-left: 50px;
+      opacity: 0.6;
     }
 
     /* logo 2 */
@@ -320,7 +310,7 @@ a {
         width: 157px;
         height: 46px;
         left: 642px;
-        top: 40px;
+        margin-bottom: 500px;
 
         background: url(.png);
     }
@@ -329,22 +319,23 @@ a {
         /* Frame 40 */
 
         /* Auto layout */
+        font-family: poppins;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 32px 24px;
         gap: 16px;
+        left: 700px;
+        margin-left: 200px;
+        margin-bottom: 100px;
 
-        position: absolute;
+        position: relative;
         width: 369px;
-        height: 403px;
+        height: 480px;
         left: 536px;
-        top: 186px;
-
+        top: 100px;
+        box-shadow: 5px 12px 16px 5px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
         background: #ffffff;
-        /* Shadow/lg */
-        box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
-        border-radius: 8px;
     }
 
     /*login start*/
@@ -377,7 +368,7 @@ a {
 
     /* label phone number */
     .login-grid label {
-        width: 166px;
+        width: auto;
         height: 19px;
         margin-bottom: 10px;
 
@@ -386,9 +377,8 @@ a {
         font-style: normal;
         font-weight: 500;
         font-size: 17px;
-        line-height: 20px;
         /* identical to box height, or 130% */
-        text-align: center;
+        text-align: start;
     }
 
     /* ini masukan email */
@@ -418,13 +408,6 @@ a {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-
-    /* 
-.btn-daftar {
-  display: contents;
-  float: right;
-  margin-right: 100px;
-} */
 
     .clk2 {
         margin-top: 15px;
@@ -467,14 +450,6 @@ a {
         font-weight: normal;
     }
 
-    /* span.icon {
-  background: url("/identity/sign-in/g-normal.png") transparent 5px 50% no-repeat;
-  display: inline-block;
-  vertical-align: middle;
-  width: 42px;
-  height: 42px;
-} */
-
     /* BATAS  */
     span.buttonText {
         display: inline-block;
@@ -483,26 +458,16 @@ a {
         padding-right: 42px;
         font-size: 14px;
         font-weight: bold;
-        /* Use the Roboto font that is loaded in the <head> */
         font-family: "Roboto", sans-serif;
     }
 
     .bts {
-        margin-top: 15px;
+        margin-top: 5px;
         justify-content: center;
         display: flex;
-        /* width: 143px;
-  height: 25px; */
-
-        /* Link/400 */
         font-family: "Poppins";
-        /* font-style: normal; */
         font-weight: 400;
         font-size: 14px;
-        /* line-height: 108px; */
-        /* identical to box height, or 130% */
-
-        /* Grey */
         color: #bebebe;
     }
 

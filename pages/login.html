@@ -4,27 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="../style/home.css" />
     <title>login</title>
   </head>
   <body>
     <div class="img-logo">
-      <img src="../assets/images/logo.png" alt="logo" class="logo" />
+      <a href="./home.html"><img src="../assets/images/logo.png" alt="logo" class="logo" /></a>
     </div>
     <div class="container-login">
       <div class="img-login"><img src="../assets/images/login.png" alt="" srcset="" /></div>
     </div>
-    <form class="login-ctr" action="/login_page.html" method="post">
+    <form class="login-ctr">
       <h1>Login</h1>
       <!-- <span class="btn-daftar"><a href="#">Register</a></span> -->
       <div class="login-grid">
-        <label for="uname"> Phone Number or Email</label>
-        <input type="email" placeholder="   Input Phone Number or Email" name="uname" required />
+        <label for="uname">Email</label>
+        <input type="email" placeholder=" Email" name="uname" />
+        <label for="uname">Password</label>
+        <input type="password" placeholder=" Password " name="uname" />
         <!-- <span class="clk2"><a href="#">lupa kata sandi?</a></span> -->
         <button type="submit">Login</button>
-        <span class="clk">Butuh bantuan?<a href="#">Hubungi Travel World Care</a> </span>
+        <span class="clk">Need Help?<a href="#">Contact Travel World Care</a> </span>
         <span class="bts">if you dont have account klik :</span>
-        <button type="submit">Register</button>
+         <button type="submit"><a href="./Register.html">Register</a></button> 
         <span class="bts">or </span>
         <div id="customBtn" class="customGPlusSignIn">
           <span class="icon"></span>
