@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/home.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="img-logo">
+      <img src="assets/images/logo.png" alt="logo" class="logo" />
+    </div>
+    <div class="container-login">
+      <div class="img-login"><img src="assets/images/login.png" alt="" srcset="" /></div>
+    </div>
+    <form class="login-ctr" action="/login_page.html" method="post">
+      <h1>Login</h1>
+      <!-- <span class="btn-daftar"><a href="#">Register</a></span> -->
+      <div class="login-grid">
+        <label for="uname"> Phone Number or Email</label>
+        <input type="email" placeholder="   Input Phone Number or Email" name="uname" required />
+        <!-- <span class="clk2"><a href="#">lupa kata sandi?</a></span> -->
+        <button type="submit">Next</button>
+        <span class="bts">if you dont have account klik :</span>
+        <button type="submit">Register</button>
+        <span class="bts">or </span>
+        <div id="customBtn" class="customGPlusSignIn">
+          <span class="icon"></span>
+          <span class="buttonText">Google</span>
+        </div>
+
+        <span class="clk">Butuh bantuan?<a href="#">Hubungi Travel World Care</a> </span>
+      </div>
+    </form>
+
+    <!-- <form action="/action_page.php" method="post">
+      
+
+      <div class="container1">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required />
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required />
+
+        <button type="submit">Login</button>
+        <button type="button" class="cancelbtn">Cancel</button>
+        <label> <input type="checkbox" checked="checked" name="remember" /> Remember me </label>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+      </div>
+    </form> -->
+  </body>
+</html>
