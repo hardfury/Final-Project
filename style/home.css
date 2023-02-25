@@ -1,13 +1,13 @@
 * {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  list-style-type: none;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     list-style-type: none;
     color: black;
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    list-style-type: none;
 }
 
 a {
@@ -21,58 +21,10 @@ a {
 }
 
 .container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.logo img {
-    width: 200px;
-}
-
-.menu {
-    margin-bottom: 20px;
-    display: flex;
-    gap: 5;
-    text-decoration: none;
-}
-
-.menu li a {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1rem;
-    color: black;
-}
-
-.navbar-menu {
-    display: flex;
-    margin: 25px 70px;
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: right;
-    padding-left: 300px;
-
-}
-
-.navbar-menu ul {
-    justify-content: right;
-    display: flex;
-    margin-left: 30px;
-    padding: 5px;
-
-}
-
-.navbar-menu ul li {
-    justify-content: right;
-    margin-left: 30px;
-    padding: 5px;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -111,6 +63,54 @@ a {
 }
 
 .navbar-menu ul li {
+  justify-content: right;
+  margin-left: 30px;
+  padding: 5px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 200px;
+}
+
+.menu{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5;
+    text-decoration: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.navbar-menu{
+    display: flex;
+    margin: 25px 70px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: right ;
+    padding-left: 300px;
+    
+}
+
+.navbar-menu ul{
+    justify-content: right;
+    display: flex;
+    margin-left: 30px;
+    padding: 5px;
+    
+}
+
+.navbar-menu ul li{
     justify-content: right;
     margin-left: 30px;
     padding: 5px;
@@ -129,11 +129,6 @@ a {
     padding: 5px 10px 5px 10px;
     margin-bottom: 15px;
 }
-.tbl-orange {
-        background-color: orange;
-        border-radius: 20px;
-        padding: 5px 10px 5px 10px
-    }
 
     .login-menu li :hover {
         background-color: #439a97;
@@ -221,124 +216,106 @@ a {
         margin-top: 100px;
     }
 
-    .search-bar {
-        display: flex;
-        margin-left: 60px;
-        margin-top: 50px;
-        width: max-content;
-        border-radius: 50px;
-        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    }
+.search-bar {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 50px;
+  width: max-content;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.location {
+  display: flex;
+  margin-right: 20px;
+  border-right: 2px solid #ddd;
+}
 
-    .location {
-        display: flex;
-        margin-right: 20px;
-        border-right: 2px solid #ddd;
-    }
-
-
-    /* .mapicon{
+.mapicon {
+  font-size: 30px;
+  color: orange;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.map-input {
+  padding-left: 5px;
+}
+/* .mapicon{
     font-size: 30px;
     color: orange;
     display: flex;
     align-items: center;
     margin-left: 10px;
 } */
-    .map-input {
-        padding-left: 5px;
-    }
-
-    .mapicon {
-        font-size: 30px;
-        color: orange;
-        display: flex;
-        align-items: center;
-        margin-left: 10px;
-    }
-
-    .map-input {
-        padding-left: 5px;
-    }
-
-    .map-input h6 {
-        font-size: 15px;
-        margin-left: 10px;
-    }
-
-    .map-input input {
-        height: 30px;
-        border: none;
-        margin-left: 10px;
-    }
-
-    .map-input input:active {
-        border: none;
-    }
-
-    .jarak {
-        display: flex;
-        margin-right: 20px;
-        border-right: 2px solid #ddd;
-    }
-
-    .icon-jarak {
-        font-size: 30px;
-        color: orange;
-        display: flex;
-        align-items: center;
-    }
-
-    .jarak-input {
-        padding-left: 5px;
-    }
-
-    .jarak-input h6 {
-        font-size: 15px;
-        margin-left: 10px;
-    }
-
-    .jarak-input input {
-        height: 30px;
-        border: none;
-        margin-left: 10px;
-    }
-
-    .jumlah {
-        display: flex;
-        margin-right: 20px;
-    }
-
-    .icon-orang {
-        font-size: 30px;
-        color: orange;
-        display: flex;
-        align-items: center;
-    }
-
-    .jumlah-input {
-        padding-left: 5px;
-    }
-
-    .jumlah-input h6 {
-        font-size: 15px;
-        margin-left: 10px;
-    }
-
-    .jumlah-input input {
-        height: 30px;
-        border: none;
-        margin-left: 10px;
-    }
-
-    .tbl-search {
-        display: flex;
-        align-items: center;
-        font-size: 35px;
-        padding: 10px;
-        color: orange;
-    }
+.map-input{
+    padding-left: 5px;
+}
+.map-input h6 {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.map-input input {
+  height: 30px;
+  border: none;
+  margin-left: 10px;
+}
+.map-input input:active {
+  border: none;
+}
+.jarak {
+  display: flex;
+  margin-right: 20px;
+  border-right: 2px solid #ddd;
+}
+.icon-jarak {
+  font-size: 30px;
+  color: orange;
+  display: flex;
+  align-items: center;
+}
+.jarak-input {
+  padding-left: 5px;
+}
+.jarak-input h6 {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.jarak-input input {
+  height: 30px;
+  border: none;
+  margin-left: 10px;
+}
+.jumlah {
+  display: flex;
+  margin-right: 20px;
+}
+.icon-orang {
+  font-size: 30px;
+  color: orange;
+  display: flex;
+  align-items: center;
+}
+.jumlah-input {
+  padding-left: 5px;
+}
+.jumlah-input h6 {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.jumlah-input input {
+  height: 30px;
+  border: none;
+  margin-left: 10px;
+}
+.tbl-search {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  padding: 10px;
+  color: orange;
+}
 
     /* login style start */
 
@@ -546,6 +523,6 @@ a {
         color: #bebebe;
     }
 
-    button {
-        cursor: pointer;
-    }
+button {
+  cursor: pointer;
+}
