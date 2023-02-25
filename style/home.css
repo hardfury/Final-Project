@@ -33,19 +33,32 @@ a {
     margin-bottom: 50px;
 }
 
-.login-menu {
+.navbar-menu {
     display: flex;
-    margin: 30px 0;
+    margin: 25px 70px;
     font-size: 20px;
     font-weight: bold;
+    justify-content: right;
 }
 
-.login-menu ul {
+.navbar-menu ul {
+    justify-content: right;
     display: flex;
+    margin-left: 30px;
+    padding: 5px;
+    
 }
 
-.login-menu ul li {
-    padding-right: 30px;
+.navbar-menu ul li {
+  justify-content: right;
+  margin-left: 30px;
+  padding: 5px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .logo img{
@@ -57,7 +70,6 @@ a {
     display: flex;
     gap: 5;
     text-decoration: none;
-    
 }
 
 .menu li a{
@@ -65,10 +77,10 @@ a {
     font-weight: 500;
     font-size: 1.1rem;
     color: black;
-    margin-bottom: 50px;
 }
 
 .navbar-menu{
+  border: 2px solid;
     display: flex;
     margin: 25px 70px;
     font-size: 20px;
@@ -79,20 +91,26 @@ a {
 }
 
 .navbar-menu ul{
+  border: 2px solid;
     justify-content: right;
     display: flex;
     margin-left: 30px;
-    padding: 5px;
-    
+    padding: 5px;   
+}
+
+.navbar-col{
+  text-decoration: underline;
+  padding: 5px 10px 5px 10px;
 }
 
 .navbar-menu ul li{
+  border: 2px solid;
     justify-content: right;
     margin-left: 30px;
     padding: 5px;
 }
 
-.navbar-menu li:hover {
+.menu li a:hover {
     background-color: #439a97;
     color: white;
     border-radius: 20px;
@@ -103,15 +121,7 @@ a {
     background-color: orange;
     border-radius: 20px;
     padding: 5px 10px 5px 10px;
-    margin-bottom: 15px;
 }
-
-    .login-menu li :hover {
-        background-color: #439a97;
-        border-radius: 20px;
-        color: white;
-        transition: all 0.3s ease-in-out;
-    }
 
     .container-content {
         display: flex;
